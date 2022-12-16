@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    font-family: Georgia, serif;
+}
+
+.add_task_formLine {
+    width: 350px;
+    margin: 20px 0;
+}
+
+.add_task_label {
+    float: left;
+}
+
+.checkmark {
+    margin-left: 40px;
+    height: 55px;
+    width: 55px;
+}
+
+.checkmark2 {
+    margin-left: 185px;
+    height: 55px;
+    width: 55px;
+}
+
+h4 {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #08415C;
+}
+
+input {
+    font-size: 25px;
+    font-family: Georgia, serif;
+    border: 2px solid #08415C;
+    size: 100px;
+    width: 350px;
+}
+
+button {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    width: 150px;
+    height: 55px;
+    font-weight: bold;
+    background-color: #83CEA5;
+    color: #08415C;
+    border-color: #08415C;
+}
+
+.b2 {
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+
+}
+
+.b3 {
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 65px;
+    margin-bottom: 5px;
+
+}
+
+.bigbutton {
+    margin-right: 150%;
+    margin-top: 5px;
+    margin-left:40%;
+    margin-bottom: 5px;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    width: 350px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #83CEA5;
+    color: #08415C;
+    border-color: #08415C;
+}
+
+button:hover {
+    background-color: #53A78A;
+}
+
+
+.header {
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    background-color: #83CEA5;
+}
+
+body {
+    background-color: #F7FFE0;
+}
+
+.header a {
+    font-size: 25px;
+    float: left;
+    display: block;
+    color: #FBF6A2;
+    border: 2px solid #53A78A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.header a:hover {
+    background-color: #53A78A;
+    color: #FAD188;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 2px;
+    color: #08415C;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 2px;
+    color: #08415C;
+}
+
+h3 {
+    margin-left: 3px;
+    font-size: 30px;
+    padding: 2px;
+    color: #08415C;
+}
+
+
+.forma {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    width: 400px;
+    border: 2px solid #08415C;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: #08415C;
+}
+
+tr,
+td,
+th {
+    padding: 2px;
+    border: 2px solid #6A2E35;
+}

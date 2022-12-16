@@ -1,0 +1,28 @@
+
+<div class="forma" *ngIf="movie">
+    <h3>{{ movie.name }}</h3>
+    
+    <h4>
+      Name:
+      <input [(ngModel)]="movie.name" placeholder="Name" />
+    </h4>
+    <h4>
+      Path:
+      <input [(ngModel)]="movie.path" placeholder="Path" />
+    </h4>
+    <h4>
+      Comments:
+      <input [(ngModel)]="movie.comments" placeholder="Comments" />
+    </h4>
+
+    <div>
+      <h4>Recomendation: 
+        <input type="checkbox" class="checkmark2" [(ngModel)]="movie.recomendation" placeholder="recomendation" />
+      </h4>
+      
+    <button class="b2" (click)="UpdateEmployee(movie)" *ngIf="movie.idMovie">Save</button>
+    <button class="b2" (click)="DeleteEmployee(movie)" *ngIf="movie.idMovie">Delete</button>
+    <button class="b3" (click)="AddEmployee(movie)" *ngIf="!movie.idMovie">Create</button>
+ 
+  </div>
+  

@@ -1,0 +1,30 @@
+<h1>Oksana Spodaryk PZ-34</h1>
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Path</th>
+    <th>Comments</th>
+    <th>Recommendation</th>
+  </thead>
+ 
+  <tbody>
+    <tr *ngFor="let emi of movies">
+      <td>{{ emi.name }}</td>
+      <td>{{ emi.path }}</td>
+      <td>{{ emi.comments }}</td>
+      <td>  <input type="checkbox" class="checkmark" onclick="return false;" (click)="RecomendMovie(emi)"  *ngIf="emi.idMovie" [(ngModel)]="emi.recomendation" placeholder="recomendation" />
+      </td>
+      
+      <td><button (click)="UpdateMovie(emi)">Edit</button></td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
+
+<button class="bigbutton" (click)="AddMovie()">Add New Movie</button>
+
+
+<app-edit-movie
+  [movie]="movieToEdit"
+  (movieUpdated)="UpdateMoviesList($event)"
+></app-edit-movie>
